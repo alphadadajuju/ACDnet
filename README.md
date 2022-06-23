@@ -8,8 +8,8 @@ Note that we only release the parts related to constructing ACDnet's network arc
 # ACDnet Overview
 We present a compact action detection network (**ACDnet**) targeting real-time edge computing which addresses both efficiency and accuracy. It intelligently exploits the temporal coherence between successive video frames to approximate their CNN features rather than naively extracting them. It also integrates memory feature aggregation from past video frames to enhance current detection stability, implicitly modeling long temporal cues over time.
 
-* (1) ACDnet concurrently addresses detection efficiency and accuracy. It combines feature approximation and memory aggregation modules, leading to improvement in both aspects.
-* (2) Our generalized framework allows for smooth integration with state-of-the-art detectors. When incorporated with SSD (single shot-detector), ACDnet could reason spatio-temporal context well over real-time, more appealing to resource-constrained devices.
-* (3) We conduct detailed studies in terms of accuracy, efficiency, robustness and qualitative analysis on public action datasets UCF-24 and JHMDB-21.
+* ACDnet concurrently addresses detection efficiency and accuracy. It combines feature approximation and memory aggregation modules, leading to improvement in both aspects.
+* Our generalized framework allows for smooth integration with state-of-the-art detectors. When incorporated with SSD (single shot-detector), ACDnet could reason spatio-temporal context well over real-time, more appealing to resource-constrained devices.
+* We conduct detailed studies in terms of accuracy, efficiency, robustness and qualitative analysis on public action datasets UCF-24 and JHMDB-21.
 
 Experiments conducted on the public benchmark datasets UCF-24 and JHMDB-21 demonstrate that ACDnet, when integrated with the SSD detector, can robustly achieve detection well above real-time (75 FPS). At the same time, it retains reasonable accuracy (70.92 and 49.53 frame mAP) compared to other top-performing methods using far heavier conﬁgurations.
