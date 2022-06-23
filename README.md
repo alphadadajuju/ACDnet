@@ -12,4 +12,6 @@ We present a compact action detection network (**ACDnet**) targeting real-time e
 * Our generalized framework allows for smooth integration with state-of-the-art detectors. When incorporated with SSD (single shot-detector), ACDnet could reason spatio-temporal context well over real-time, more appealing to resource-constrained devices.
 * We conduct detailed studies in terms of accuracy, efficiency, robustness and qualitative analysis on public action datasets UCF-24 and JHMDB-21.
 
+![alt text](https://github.com/alphadadajuju/ACDnet/blob/master/images/pipeline.jpg)
+
 Experiments conducted on the public benchmark datasets UCF-24 and JHMDB-21 demonstrate that ACDnet, when integrated with the SSD detector, can robustly achieve detection well above real-time (75 FPS). At the same time, it retains reasonable accuracy (70.92 and 49.53 frame mAP) compared to other top-performing methods using far heavier conﬁgurations.
