@@ -19,3 +19,4 @@ Experiments conducted on the public benchmark datasets UCF-24 and JHMDB-21 demon
 ![alt text](https://github.com/alphadadajuju/ACDnet/blob/master/images/results.jpg)
 
 # ACDnet Usage
+Please refer to our network architecture (i.e., symbol_builder.py) as a reference for more up-to-date DL frameworks/API.
